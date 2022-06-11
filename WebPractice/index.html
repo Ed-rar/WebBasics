@@ -1,0 +1,70 @@
+<!-- apenas digitar "html" e escolher a opção "html:5" ja cria os dados de pré config da página -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto em html</title>
+    <!-- tag "link" com "rel" indicando o tipo de doc + "href" para atribuir o arquivo css de estilização-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--conteúdo da página é delimitado pela tag "body"-->
+<body>
+    <!--"header" é o cabeçalho do item que estamos criando, podendo ser usado mais de uma vez ao longo do doc-->
+    <header>
+        <!--é boa prática ter apenas uma tag "h1" por página ja que é a info mais importante e é o que o site de busca utiliza para determinar o assunto da pagina-->
+        <h1 id="title">Teste H1 --> Header</h1>
+    </header>
+
+    <!-- delimitar uma seção do body com a tag "section"-->
+    <section class="post">
+        <header>
+            <h2 class="sub_title">Teste H2 --> Header --> Section</h2>
+        </header>
+
+        <!--utilização da tag "article" para delimitar um espaço de um artigo-->
+        <article>
+            <header>
+                <h3 class="post_title"> Teste H3 --> Header --> Article</h3>
+            </header>
+
+            <!--Teste de ancora (a) com "href="" " para o site do Lorem ipsum utilizando "target="_blank" " para o link abrir em outra pagina-->
+            <!--utilização da tag "p" para delimitar um paragrafo de texto-->
+            <p class="paragraph">
+                <a href="https://www.lipsum.com" target="_blank">Lorem ipsum dolor sit amet</a>, com "targetconsectetur 
+                adipiscing elit. Nunc vel volutpat neque. Pellentesque 
+                posuere euismod neque ac tempus. In vel ultricies neque. Nullam quis eleifend velit, eu sollicitudin nibh. 
+                Sed tempor lacus vitae erat pellentesque semper. Fusce eget ultrices nulla. Vivamus consectetur 
+                placerat nulla ut vehicula. Maecenas sed arcu et urna interdum placerat. Vestibulum faucibus auctor 
+                lectus id pellentesque. Vivamus condimentum viverra odio, ac mattis mi tristique eu. Quisque sit 
+                amet aliquet quam. Sed feugiat eleifend quam. Phasellus vulputate, tellus ac euismod gravida, nibh 
+                tortor porttitor orci, vitae finibus orci eros non sapien.
+            </p>
+        </article>
+        <article class="article_img">
+            <!--Teste de imagem com "src" e "alt"-->
+            <p><img src="./images/exemplo1.jpg" alt="woman on the phone while writting in a book"></p>
+            <p><img src="./images/exemplo2.jpg" alt="woman sleeping next to her laptop"></p>
+        </article>
+    </section>
+
+    <!--delimitar o rodapé da pagina com a tag "footer"-->
+    <footer>
+        <ul class="ul_style">
+            <!--Teste com lista não ordenada "ul"-->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <ol class="ol_style">
+            <!--Teste com lista ordenada "ol"-->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Verdana;
+    margin: auto;
+    max-width: 900px;
+}
+
+.post{
+    background-color: rgb(238, 167, 74);
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.article_img img{
+    width: 40%;
+    padding: 10px;    
+}
+
+/* "#" identifica um "id" e é correto existir apenas 1 por página, por isso foi atribuído ao "h1" */
+/* "." identifica uma classe e essa pode existir várias por página */
+#title, .sub_title, .post_title {
+    color:blueviolet;
+}
+
+#title{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.sub_title{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.paragraph a{
+    color: blue;
+}
+
+.ul_style{
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.ol_style{
+    list-style-type: Upper-roman;
+    padding-left: 15px;
+}
